@@ -19,7 +19,7 @@ const MainStack = createStackNavigator({
     defaultNavigationOptions:{
       headerBackTitle:'Geri',
       headerStyle:{
-        backgroundColor:'#f2f2f2',
+        backgroundColor:'#f3f3f3',
       },
       headerTintColor:'black',
       headerTitleStyle:{
@@ -33,7 +33,7 @@ const MainStack = createStackNavigator({
 
   const ModalStack = createStackNavigator({
     Main:MainStack,
-    Modal:AboutModal
+    AboutModal
   },{
       mode:'modal',
       headerMode:'none'}

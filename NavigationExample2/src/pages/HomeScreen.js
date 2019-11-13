@@ -29,7 +29,7 @@ export default class HomeScreen extends Component {
       //   </TouchableOpacity>
       // ),
       headerRight: (
-        <TouchableOpacity style={{marginHorizontal:20,marginVertical:20}} onPress={()=>navigation.navigate('Modal')} >
+        <TouchableOpacity style={{marginHorizontal:20,marginVertical:20}} onPress={()=>navigation.navigate('AboutModal')} >
         
         <Image 
           style={{height:38,width:38}}
