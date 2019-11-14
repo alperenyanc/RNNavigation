@@ -8,8 +8,13 @@ open NavigationExample and look up this page https://facebook.github.io/react-na
 
 npm i, npm start and react-native run-android or ios---
 
+Router1
 ![alt text](https://github.com/alperenyanc/RNNavigation/blob/bro/SS1.png )
-![alt text](https://github.com/alperenyanc/RNNavigation/blob/bro/SS2.png )
-![alt text](https://github.com/alperenyanc/RNNavigation/blob/bro/SS3.png)
+
+Router2
+![alt text](https://github.com/alperenyanc/RNNavigation/blob/bro/SS2.png  )
+
+Router
+![alt text](https://github.com/alperenyanc/RNNavigation/blob/bro/SS3.png )
 
 
