@@ -10,7 +10,6 @@ import CategoryScreen from './pages/CategoryScreen';
 import Icon from 'react-native-vector-icons/FontAwesome'
 // import AboutModal from './pages/AboutModal'
 import DrawerButton from './components/DrawerButton'
-import DrawerMenu from './components/DrawerMenu'
 
 
 const HomeStack = createStackNavigator(
@@ -77,8 +76,16 @@ const Drawer = createDrawerNavigator(
     style: {backgroundColor: '#f2f2f2'},
     edgeWidth: 500,
     drawerPosition:'left',
-    drawerWidth:200,
-    contentComponent:DrawerMenu
+    drawerWidth:160,
+    contentOptions:{
+      activeTintColor:'#fff',
+      inactiveTintColor:'#d03932',
+      activeBackgroundColor:'#d03932',
+      inactiveBackgroundColor:'#fff',
+      itemStyle:{
+        flexDirection:'row-reverse'
+      }
+    }
   },
   {
     initialRouteName: 'HomeScreen',
